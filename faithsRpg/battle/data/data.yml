@@ -1,0 +1,17 @@
+prefixes:
+ player: "You"
+ enemy: "The enemy"
+templates: {
+  startOfTurnStaminaRegen: "restored {} stamina.",
+  startOfTurnManaRegen: "restored {} mana.",
+  commands: "can {}.",
+  restedAndRestoredStamina: "rested and restored {} stamina",
+  restedAndRestoredMana: "rested and restored {} mana.",
+  fled: "successfully fled from the enemy",
+  fled2: "really? You're gonna run? Okay.",
+  fled3: "ran all the way home and hid from the big scary monster.",
+  unableToRun: "tried lol.",
+  unableToRun2: "attempted to run but got caught and brought back into the fight",
+  defeatedPlayer: "blacked out and woke up in the enemy's lair",
+  defeatedEnemy: "won!"
+}
