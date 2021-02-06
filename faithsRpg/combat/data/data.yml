@@ -1,0 +1,15 @@
+entityValues: 
+  health: 100
+  stamina: 100
+  mana: 100
+
+stats:
+ strength: 100
+ archery: 100
+ magic: 100
+ defense: 100
+ dexterity: 100
+ composure: 100
+ criticalHitChance: 3
+
+criticalHitMultiplier: 1.5
