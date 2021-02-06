@@ -8,7 +8,7 @@
     "typescript": "^4.1.3",
     "yaml": "^1.10.0"
   },
-  "type":  "module",
+  "type": "module",
   "devDependencies": {},
   "scripts": {
     "test": "cd  ./faithsRpg/index.js && node index.js"

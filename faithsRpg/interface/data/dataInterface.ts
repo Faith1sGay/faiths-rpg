@@ -3,7 +3,7 @@ export namespace IData {
         inputPrompt?: string;
         formsOfTrue?: string[];
         formsOfFalse?: string[];
-        unacceptableInmputMesages?: {
+        unacceptableInputMessages?: {
             getBoolInput?: string;
             getIntInput?: string;
             getCommand?: string;

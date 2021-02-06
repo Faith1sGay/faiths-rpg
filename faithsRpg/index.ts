@@ -1,5 +1,13 @@
+import { gameData} from './interface/data/dataLoader.js'
 import { IData } from './interface/data/dataInterface'
-let a : IData.Data = ({
-    inputPrompt: ">>> "
+const game : IData.Data = ({
+    inputPrompt: gameData.inputPrompt,
+    formsOfTrue: gameData.formsOfTrue.toString(),
+    formsOfFalse: gameData.formsOfFalse.toString(),
+    unacceptableInputMessages: {
+        getBoolInput: gameData.unacceptableInputMessages.getBoolInput.toString(),
+        getIntInput: gameData.unacceptableInputMessages.getIntInput.toString(),
+        getCommand: gameData.unacceptableInputMessages.getCommand.toString()
+    }
 })
-console.log(a)
+console.log(game)
