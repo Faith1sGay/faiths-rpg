@@ -1,0 +1,23 @@
+{
+  "name": "faiths-rpg",
+  "version": "1.0.0",
+  "description": "A rpg about something",
+  "main": "./faithsRpg/index.js",
+  "dependencies": {
+    "yaml": "^1.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "cd  ./faithsRpg/index.js && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Faith1sGay/faiths-rpg.git"
+  },
+  "author": "Faith",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Faith1sGay/faiths-rpg/issues"
+  },
+  "homepage": "https://github.com/Faith1sGay/faiths-rpg#readme"
+}

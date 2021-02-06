@@ -1,0 +1,11 @@
+inputPrompt: ">>> "
+formsOfTrue:
+ - yes
+ - y
+formsOfFalse:
+ - no
+ - n
+unacceptableInputMessages:
+ getBoolInput: "You must enter yes or no (y/n)."
+ getIntInput: "You must enter a whole number between 1 and 18000."
+ getCommand: "You must enter a valid command."
