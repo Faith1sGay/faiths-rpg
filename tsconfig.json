@@ -1,11 +1,13 @@
 {
   "compilerOptions": {
     "lib": ["ES2020"],
-    "module": "system",
+    "module": "ESNEXT",
     "moduleResolution": "node",
     "target": "ES2020",
     "outDir": "./Game",
-    "sourceMap": false
+    "sourceMap": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
   },
   "include": [
     "./faithsRpg/**/*",
