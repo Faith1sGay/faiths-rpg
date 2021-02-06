@@ -14,6 +14,7 @@ console.log(game)
 
 import { gameCombat } from './combat/data/dataLoader.js'
 import { ICombatInterface } from './combat/data/dataInterface'
+import { startUp } from './startup/startUp.js'
 const e: ICombatInterface.Combat = ({
     entityValues: {
         health: gameCombat.entityValues.health,
@@ -31,4 +32,5 @@ const e: ICombatInterface.Combat = ({
     },
     criticalHitMultiplier: gameCombat.criticalHitMultiplier
 })
+startUp()
 console.log(e)
